@@ -16,27 +16,67 @@ parts has been cut out in order to speed up the code
 --[[
 license:
 
-Copyright 2022 HanamileH
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated
-documentation files (the "Software"), to deal in the
-Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute,
-sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so,
+NOAI License (No AI Training License)
+Version 0.1
+SPDX short identifier: NOAI
+
+Copyright 2022-2026 HanamileH
+
+Permission is hereby granted, free of charge, to any human person or organization
+obtaining a copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
 subject to the following conditions:
 
-The above copyright notice and this permission notice shall
-be included in all copies or substantial portions of the Software.
+1. COPYRIGHT NOTICE
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
-KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
-PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
-OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
-OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
-THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+2. AI TRAINING RESTRICTION
+   The Software, including but not limited to its source code, documentation,
+   comments, structure, logic, algorithms, and any derivative works thereof, SHALL
+   NOT be used, in whole or in part, directly or indirectly, for the purpose of:
+
+   a) Training, fine-tuning, evaluating, or otherwise improving any artificial
+      intelligence model, machine learning system, large language model (LLM),
+      neural network, or any automated code generation system;
+
+   b) Building or enriching any dataset, corpus, or knowledge base intended for
+      use in training or developing AI/ML systems described in section 2(a);
+
+   c) Feeding into any automated system that produces code, text, or other
+      creative output that could substitute for human developer labor.
+
+   This restriction applies to all entities, including but not limited to
+   corporations, research institutions, non-profit organizations, and individuals.
+
+3. HUMAN USE GUARANTEE
+   Human developers, engineers, students, researchers, and hobbyists are
+   explicitly permitted and encouraged to:
+
+   a) Read, study, and learn from this Software;
+   b) Use this Software in personal, educational, and commercial projects;
+   c) Modify and create derivative works of this Software;
+   d) Share and distribute this Software and derivative works;
+
+   provided that all such derivative works are distributed under the same
+   NOAI License terms, including the AI Training Restriction in Section 2.
+
+4. ENFORCEMENT
+   Any use of this Software in violation of Section 2 constitutes a material
+   breach of this license and automatically terminates all rights granted herein.
+   The copyright holder reserves the right to seek injunctive relief and damages
+   for any unauthorized AI training use.
+
+5. DISCLAIMER
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE, EXCEPT AS IT RELATES TO ENFORCEMENT OF THE AI TRAINING RESTRICTION.
 ]]
 
 trace("Current map bank: "..map_bank,3)
